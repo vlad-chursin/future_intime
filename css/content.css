@@ -1,0 +1,54 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.promo-block{
+    width: 100%;
+    margin: 30px 50px;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo span, .nav-a{
+    font-family: Suisse Book;
+    font-size: 30px;
+}
+
+.logo, .nav-a{
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.navigation{
+    display: flex;
+    gap: 20px;
+    /* justify-content: flex-end; */
+}
+
+.title-block{
+    display: flex;
+    gap: 20px;
+}
+
+.button-more img{
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+}
+
+.title-block .title{
+    font-family: Suisse Light;
+    font-size: 180px;
+    letter-spacing: -10px;
+}
+
+.image-block img{
+    width: 100%;
+}
